@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
     steps:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
